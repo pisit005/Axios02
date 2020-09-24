@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img src="https://img.icons8.com/ios/100/000000/infinity-large.png" height="150px"/>
+    <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <anime/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import anime from './components/anime.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+
+    anime
   }
 }
 </script>
